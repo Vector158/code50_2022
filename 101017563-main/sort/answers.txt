@@ -1,0 +1,53 @@
+sort1 uses:
+
+Selection sort iterates
+through the unsorted portions of a list,
+selecting the smallest element each time
+and moving it to its correct location.
+
+How do you know?:
+
+Random = ~8sec
+Reversed = ~8sec
+Sorted = 1.15se
+
+
+
+
+sort2 uses:
+
+Merge sort recursively divides the list into two repeatedly
+and then merges the smaller lists back into a larger
+one in the correct order.
+
+How do you know?:
+
+So far the best overall results.
+
+
+
+
+
+sort3 uses:
+
+Bubble sort
+
+How do you know?:
+
+Exsclusion principle.
+
+
+
+
+
+sort1 random = 8sec
+sort2        = 0.9sec
+sort3        = 3.4sec
+
+sort1 reversed = 8sec
+sort2          = 0.78sec
+sort3          = 3.65sec
+
+sort1 sorted = 1.15sec
+sort2        = 0.72sec
+sort3        = 4sec
